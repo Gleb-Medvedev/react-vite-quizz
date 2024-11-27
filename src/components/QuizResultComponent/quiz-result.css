@@ -1,0 +1,18 @@
+.quiz-result {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 6px;
+}
+
+.quiz-result__img-container {
+    width: 250px;
+    margin: 0 auto 24px;
+}
+
+.quiz-result__img-container > img {
+    max-width: 100%;
+    object-fit: cover;
+    max-height: 100%;
+}

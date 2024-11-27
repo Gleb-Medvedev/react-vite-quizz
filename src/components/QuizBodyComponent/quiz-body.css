@@ -1,0 +1,32 @@
+.quiz-body {
+    position: relative;
+    padding: 60px 20px 20px;
+}
+
+.quiz-slide__title {
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.quiz-slide__list {
+    list-style: none;
+}
+
+.quiz-slide__list-item {
+    padding: 12px 24px;
+    border: 1px solid #666;
+    border-radius: 20px;
+    text-align: center;
+    transition: 300ms ease-out background-color;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.quiz-slide__list-item:hover {
+    background-color: rgb(104, 100, 94);
+}
+
+.quiz-slide__list-item:not(:last-child) {
+    margin-bottom: 24px;
+}
