@@ -30,9 +30,7 @@ function App() {
             quizstep={quizStep}
             answersarray={quizData[quizStep].answers} 
             slidetitle={quizData[quizStep].title}
-            // onClick={({ index }) => console.log(index)} //РАБОТАЕТ. НЕ ТРОГАЙ, ДОЛБОЕБ!
-            // onClick={({ index }) => {setQuizStep(prev => prev + 1), slideRightAnswer === index ? setRightAnswersCounter(prev => prev + 1) : false}} // ЭТО НЕВЕРОЯТНО!
-            onClick={({ index }) => {slideAnswerClicked(index)}} // ЭТО ЕЩЕ БОЛЕЕ НЕВЕРОЯТНО!
+            onClick={({ index }) => {slideAnswerClicked(index)}}
             progress={progressBarWidth}
         />
         )

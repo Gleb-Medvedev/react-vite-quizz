@@ -14,7 +14,7 @@ export function QuizBody({ quizstep, answersarray, slidetitle, onClick, progress
                         return (
                             <li className="quiz-slide__list-item"
                                 key={`Слайд ${quizstep + 1}, вариант ответа ${index + 1}`}
-                                onClick={() => {(onClick({ index }))}} //ЭТО ПРАВИЛЬНО. НЕ ТРОГАЙ, ДОЛБОЕБ!
+                                onClick={() => {(onClick({ index }))}}
                             >
                                     {question}
                             </li>
